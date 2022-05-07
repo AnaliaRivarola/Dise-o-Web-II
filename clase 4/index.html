@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Bienvenidos</h1>
+
+  <p><a href="#" class="btn" id="btLimpiar">Limpiar</a></p>
+  <p><a href="#" class="btn" id="btCargar">Cargar</a></p>
+  <table>
+    <thead>
+      <tr id="tab_cabe">
+        <th> Id</th>
+        <th>Cédula</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Fecha de Nac.</th>
+        <th><a class="btn btn-outline-success" id="btNuevo" colspan="2">Nuevo</a></th>
+      </tr>
+    </thead>
+    <!--no cerre el thead-->
+    <tbody id="tab_datos">
+      <tr>
+        <td>id</td>
+        <td>Cedula</td>
+        <td>Nombre</td>
+        <td>Apellido</td>
+        <td>fecha de Nacimiento</td>
+      </tr>
+    </tbody>
+  </table>
+  <!--cerre el table despues del tr -->
+
+  <form id="form">
+
+    <!-- Name input -->
+    <div class="form-outline mb-4">
+      <input type="hidden" id="idx" class="form-control" />
+      <input type="text" id="cedula" class="form-control" />
+      <label class="form-label" for="form4Example1">Numero de Documento</label>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="apellido" class="form-control" />
+      <label class="form-label" for="form4Example2">Apellidos</label>
+    </div>
+
+    <!-- Message input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="nombre" class="form-control" />
+      <label class="form-label" for="form4Example2">Nombres</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="date" id="fNacimiento" class="form-control" />
+      <label class="form-label" for="form4Example2">Fdecha de Nacimiento</label>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" id="btProcesar" class="btn btn-primary btn-block mb-4">Send</button>
+  </form>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

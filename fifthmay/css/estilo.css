@@ -1,0 +1,21 @@
+div.container{
+  margin-top: 100px;
+  width:  300px;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+h1{
+  padding-left:90px;
+}
+table{
+  margin-left: 300px;
+}
+label{
+
+  font-style: oblique;
+  font-variant: small-caps;
+}
+button{
+  
+}

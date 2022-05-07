@@ -1,0 +1,27 @@
+#tab_datos td {
+  padding-left: 10px;
+  padding-right: 30px;
+  size: 50px;
+}
+
+#tab_cabe th {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+#boton p {
+  background-color: skyblue;
+  padding-right: 5px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+table {}
